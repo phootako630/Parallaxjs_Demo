@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Try to Move Your Mouse</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/parallax.js"></script>
+</head>
+<body>
+ <div class="container">
+     <ul id="scene" data-depth="1">
+            <li class="layer" data-depth="1"><img src="img/planet1.png" alt="a pic of a planet"></li>
+            <li class="layer" data-depth="1"><img src="img/planet2.png" alt="a pic of a planet"></li>
+            <li class="layer" data-depth="1"><img src="img/man.png" alt="a pic of an astronaut"></li>
+            <li class="layer" data-depth="1"><img src="img/earth.png" alt="a pic of the earth"></li>
+            <li class="layer" data-depth="1"><img src="img/text.png" alt="a pic of a piece of text"></li>
+            <li class="layer" data-depth="1"><img src="img/planet3.png" alt="a pic of a planet"></li>
+            <li class="layer" data-depth="1"><img src="img/planet4.png" alt="a pic of a planet"></li>
+            <li class="layer" data-depth="1"><img src="img/planet5.png" alt="a pic of a planet"></li>
+     </ul>
+
+ </div>
+<script>
+    var scene = document.getElementById('scene');
+    var parallax = new Parallax(scene);
+</script>
+
+</body>
+</html>
